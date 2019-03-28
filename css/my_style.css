@@ -1,0 +1,360 @@
+body > header{
+    height: 700px
+}
+body > header .nav_one{
+    padding: 15px;
+    border-radius: 8px;
+}
+body > header .nav_one .sigle img{
+    width: 285px;
+    height: 85px;
+}
+body > header .nav_one .contact_info{
+    padding-top: 20px
+}
+body > header .nav_one .contact_info .item{
+    display: inline-block;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+body > header .nav_one .contact_info .item .icon{
+    width: 35px;
+    height: 35px;
+    margin-right: 15px
+}
+body > header .nav_one .contact_info .item .label{
+    font-weight: bold;
+    color: #656565;
+    font-family: oswald,sans-serif;
+    font-style: normal;
+    font-size: 15px;
+}
+body > header .nav_one .contact_info .item .content{
+    color: #656565;
+    font-family: oswald,sans-serif;
+    font-style: normal;
+    font-size: 12px;
+}
+body > header .nav_two{
+    background-color: white;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+body > header .nav_two .nav_bar{
+    padding-top: 20px
+}
+body > header .nav_two .nav_bar .nav_bar_item{
+    display: inline-block;
+    text-align: center;
+    margin-right: 30px;
+    cursor: pointer
+}
+body > header .nav_two .nav_bar .nav_bar_item:first-child .label a{
+    color: #ff660d
+}
+body > header .nav_two .nav_bar .nav_bar_item .label a{
+    font-weight: bold;
+    color: #656565;
+    font-family: oswald,sans-serif;
+    font-style: normal;
+    font-size: 15px;
+}
+body > header .nav_two .nav_bar .nav_bar_item .label a:hover{
+    text-decoration: none;
+    color: #ff660d
+}
+body > header .nav_two .nav_links .item{
+    width: 80px;
+    height: 60px;
+    border-left: #dcdcdc 1px solid;
+    padding-top: 14px
+}
+body > header .nav_two .nav_links .item img{
+    width: 30px;
+    height: 30px;
+    display: block;
+    margin: auto
+}
+body > header .slogon{
+    font-weight: bold;
+    color: #3e3e3e;
+    font-family: oswald,sans-serif;
+    font-style: normal;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 50px
+}
+body > header .slogon input{
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: #ff660d;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    width: 150px
+}
+.stat_display{
+    padding-left: 45px;
+    padding-right: 45px;
+    margin-top: 150px;
+}
+.stat_display > div{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    box-shadow: #969696 0 0 5px 2px ;
+    background-color: white;
+    border-radius: 10px;
+    padding-left: 35px;
+    padding-right: 35px
+}
+.stat_display .item .number{
+    font-weight: bold;
+    color: #3e3e3e;
+    font-family: oswald,sans-serif;
+    font-style: normal;
+    font-size: 40px;
+    padding-right: 15px
+}
+.stat_display .item .content{
+    font-weight: bold;
+    color: #3e3e3e;
+    font-family: oswald,sans-serif;
+    font-style: normal;
+    font-size: 15px;
+    padding-left: 15px;
+    padding-top: 5px;
+    border-left: #eed2c1 1px solid
+}
+.business_description{
+    text-align: center;
+    padding-top: 55px;
+    padding-bottom: 55px;
+    margin-top: 100px
+}
+.business_description .label{
+    color: gray;
+    font-family: oswald,sans-serif;
+    font-style: normal;
+    font-size: 20px; 
+}
+.business_description .tiltle{
+    color: #595959;
+    font-family: oswald,sans-serif;
+    font-style: normal;
+    font-size: 25px; 
+}
+.business_description p{
+    color: gray;
+    font-family: oswald,sans-serif;
+    font-style: normal;
+    font-size: 15px; 
+    margin-top: 20px
+}
+.liste_services_one .item > div{
+    position: relative;
+    text-align: center;
+    padding-top: 55px;
+    padding-bottom: 25px
+}
+.liste_services_one .item .image{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -2
+}
+.liste_services_one .item .image_effect{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-color: rgba(73,52,106,.45);
+}
+.liste_services_one .item .description img{
+    width: 45px;
+    height: 45px;
+    display: block;
+    margin: auto;
+    margin-bottom: 30px
+}
+.liste_services_one .item .description strong{
+    color: white;
+    font-family: oswald,sans-serif;
+    font-style: normal;
+    font-size: 18px
+}
+.liste_services_one .item .description p{
+    color: white;
+    font-family: oswald,sans-serif;
+    font-style: normal;
+    margin-top: 25px;
+    margin-bottom: 25px
+}
+.liste_services_one .item a{
+    color: white;
+    font-family: oswald,sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: bold
+}
+.liste_services_two{
+    margin-top: 100px
+}
+.liste_services_two header ul{
+    padding: 0px;
+    list-style: none;
+    padding-bottom: 5px;
+    border-bottom: #dfdfec 1px solid
+}
+.liste_services_two header ul li{
+    display: inline-block;
+    color: #a1a1a1;
+    font-family: oswald,sans-serif;
+    font-style: normal;
+    font-size: 15px;
+    cursor: pointer;
+    height: 35px
+}
+.liste_services_two header ul li + li{
+    margin-left: 25px;
+}
+.liste_services_two header ul li:hover{
+    border-bottom: #ff660d 3px solid;
+    color: #ff660d;
+    font-weight: bold
+}
+.liste_services_two header ul li:nth-child(1){
+    border-bottom: #ff660d 3px solid;
+    color: #ff660d;
+    font-weight: bold
+}
+.liste_services_two .item{
+    width: 240px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.1); 
+    margin-bottom: 25px
+}
+.liste_services_two .item + .item{
+    margin-left: 18px
+}
+.liste_services_two .item .image{
+    display: block;
+    width: 100%;
+    height: 180px
+}
+.liste_services_two .item .description{
+    background-color: white;
+    margin: 0px;
+    padding-top: 25px;
+    padding-bottom: 10px
+}
+.liste_services_two .item .description .title a{
+    color: #4a4a4a;
+    font-family: oswald,sans-serif;
+    font-style: normal;
+    font-size: 13px;
+    font-weight: bold;
+}
+.liste_services_two .item .description .categorie a{
+    color: #9b9b9b;
+    font-family: oswald,sans-serif;
+    font-style: normal;
+    font-size: 13px;    
+}
+.liste_services_two footer button{
+    width: 200px;
+    height: 50px;
+    background-color: #414141;
+    border-radius: 100px;
+    color: white;
+    font-weight: bold;
+    margin-top: 150px;
+    margin-bottom: 150px
+}
+.member_register form{
+    padding-left: 85px
+}
+.member_register form strong{
+    color: #4a4a4a;
+    font-family: oswald,sans-serif;
+    font-style: normal;
+    font-size: 35px;
+    font-weight: bold;
+}
+.member_register form input{
+    width: 100%;
+    border: none;
+    border-bottom: #dfdfec 1px solid;
+    height: 50px;
+    margin-top: 35px
+}
+.member_register form input::placeholder{
+    color: gray;
+    padding-left: 15px;
+}
+.member_register form input[type=submit]{
+    width: 150px;
+    border-radius: 100px;
+    background-color: #ff660d;
+    color: white;
+    font-weight: bold;
+}
+.member_register{
+    margin-bottom: 50px
+}
+body > header .nav_two .nav_links .menu_icon{
+    display: none
+}
+@media(min-width: 900px){
+    body > header .nav_two{
+        height: 60px;
+        padding-left: 50px
+    }
+    body > header{
+        padding-left: 45px;
+        padding-right: 45px
+    }
+    .liste_services_two header ul{
+        height: 35px;
+    }
+}
+@media(max-width: 900px){
+    body > header .nav_two .nav_bar{
+        display: none
+    }
+    body > header .slogon{
+        font-size: 14px
+    }
+    .business_description{
+        margin-top: 320px
+    }
+    .stat_display .item{
+        margin-bottom: 15px
+    }
+    .liste_services_one .item{
+        margin-bottom: 20px
+    }
+    .member_register img{
+        width: 100%;
+    }
+    .liste_services_two header ul li{
+        margin-bottom: 5px
+    }
+    .member_register form{
+        padding-left: 5px
+    }       
+    body > header .nav_two .nav_links .menu_icon{
+        display: inline-block
+    }
+    body > header .nav_two .nav_bar .nav_bar_item{
+        width: 100%;
+        text-align: center
+    }
+}
+
